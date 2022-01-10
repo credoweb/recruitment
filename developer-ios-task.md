@@ -20,6 +20,7 @@ Use https://api.currentsapi.services/v1/search as end point for your application
     For newer news you should display the time since it was published, e.g. “less than a minute ago”, “2 hours ago”, etc. 
   - The screen should have pull to refresh implemented
   - When an item is clicked it should load the second screen
+  - Infinite scrolling (loading in more episodes as you scroll).
 - News Details Screen:
   - The full image provided by the api (no cropping this time)
   - Title
@@ -30,5 +31,4 @@ Use https://api.currentsapi.services/v1/search as end point for your application
 
 If you feel like you want to show us what you're are really capable of, here is a list of potential enhancements that we have come up with. You can always go the extra mile and do not limit yourself to it if you think of any other possible feature enhancement that you want to include in your submission.
 
-- Infinite scrolling (loading in more episodes as you scroll).
 - A search functionality based on news title.
