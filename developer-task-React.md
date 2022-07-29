@@ -1,17 +1,21 @@
-## Web Development OMDb Task
+## Web Development IMDb Task
 
-We at CredoWeb are fans of the epic Game of Throne series. 
-Your task (should you choose to accept it) is to consume the public [OMDb API](http://www.omdbapi.com/) and display all the seasons and all episodes (with the poster of each episode) of the show according to this basic wireframe:
+We at CredoWeb are fans of the epic Game of Throne series.
+Your task (should you choose to accept it) is to consume the public [IMDb API](https://imdb-api.com/) and display all the seasons and all episodes (with the poster of each episode) of the show according to this basic wireframe:
 
 > ![mockup](wireframe-omdb.png)
 
 We'd like to point out this is not the actual design just a wireframe to illustrate the basic view we aim.
 
-Some help for the OMDb API:
+SSome help for the IMDb API:
 
-* Here you can [request](http://www.omdbapi.com/apikey.aspx) a free API key to the OMDb
+* Here you can [request](https://imdb-api.com/) a free API key to the IMDb
 * It uses IMDb IDs - the Game Of Throne id is `tt0944947`
-* Although not listed in the example but in the changes below appending `&season=X` or `&season=X&episode=Y` gives you the information for the season or episode required
+* The following Api endpoints should do the job, but there are many more you could use:
+    * https://imdb-api.com/en/API/Title/{APIKey}/tt0944947 - to get data about the Series and its Seasons
+    * https://imdb-api.com/en/API/SeasonEpisodes/{APIKey}/tt0944947/{seasonNumber} - to get data about episodes in a Season
+    * https://imdb-api.com/en/API/Title/{APIKey}/{episodeID} - to get data about a single Episode
+
 
 .. and just a few pointers below for the task:
 
